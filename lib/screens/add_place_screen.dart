@@ -6,8 +6,14 @@ class PlacesListScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Your Places '),
-        actions: [],
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.add),
+          )
+        ],
       ),
+      body: Center(),
     );
   }
 }
